@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "outDir": "./dist",
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators. */
+    "emitDecoratorMetadata": true,                   /* Enable experimental support for legacy experimental decorators. */
+    "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    // "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    // "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
